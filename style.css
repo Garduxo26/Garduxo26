@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image-container {
+    flex: 2;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+img {
+    width: 100%;
+    display: block;
+    border: none;
+}
+
+.content {
+    flex: 1;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.info-div {
+    background-color: #f9f9f9; /* Color de fondo similar a un periódico */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.info-div h2 {
+    color: #333;
+    font-size: 20px; /* Tamaño de fuente ligeramente más pequeño */
+}
+
+.info-div p {
+    color: #777; /* Texto más claro para el contenido de información */
+    font-size: 14px; /* Tamaño de fuente más pequeño */
+}
+
+/* Estilo para el div de información sobre el roleplay */
+.roleplay-info {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.roleplay-info h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.roleplay-info p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Otros estilos para los demás elementos en la página */
+/* ... (otros estilos) ... */
+
